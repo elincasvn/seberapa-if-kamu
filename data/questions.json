@@ -1,0 +1,10 @@
+[
+    {
+      "question": "Apa itu algoritma?",
+      "choices": ["Langkah menyelesaikan masalah", "Nama hewan"]
+    },
+    {
+      "question": "Apa kepanjangan dari CPU?",
+      "choices": ["Central Processing Unit", "Computer Power Usage"]
+    }
+]
