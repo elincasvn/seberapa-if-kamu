@@ -1,10 +1,62 @@
 [
     {
-      "question": "Apa itu algoritma?",
-      "choices": ["Langkah menyelesaikan masalah", "Nama hewan"]
+        "question": "Apa kepanjangan dari CPU?",
+        "option_a": "Central Process Unit",
+        "option_b": "Central Processing Unit",
+        "answer": "B"
     },
     {
-      "question": "Apa kepanjangan dari CPU?",
-      "choices": ["Central Processing Unit", "Computer Power Usage"]
+        "question": "Bahasa pemrograman manakah yang populer untuk AI?",
+        "option_a": "Python",
+        "option_b": "HTML",
+        "answer": "A"
+    },
+    {
+        "question": "Apa itu RAM?",
+        "option_a": "Read Access Memory",
+        "option_b": "Random Access Memory",
+        "answer": "B"
+    },
+    {
+        "question": "Apa nama sistem operasi open source?",
+        "option_a": "Linux",
+        "option_b": "Windows",
+        "answer": "A"
+    },
+    {
+        "question": "Apa itu IP address?",
+        "option_a": "Alamat komputer di jaringan",
+        "option_b": "Identitas printer",
+        "answer": "A"
+    },
+    {
+        "question": "Fungsi dari GPU adalah?",
+        "option_a": "Proses grafis",
+        "option_b": "Simpan data",
+        "answer": "A"
+    },
+    {
+        "question": "HTML digunakan untuk?",
+        "option_a": "Pemrograman database",
+        "option_b": "Membuat halaman web",
+        "answer": "B"
+    },
+    {
+        "question": "Apa itu bug dalam coding?",
+        "option_a": "Kesalahan dalam program",
+        "option_b": "Bahasa pemrograman",
+        "answer": "A"
+    },
+    {
+        "question": "Manakah yang termasuk OS mobile?",
+        "option_a": "iOS",
+        "option_b": "Chrome",
+        "answer": "A"
+    },
+    {
+        "question": "Apa itu DNS?",
+        "option_a": "Domain Name System",
+        "option_b": "Download Network Setting",
+        "answer": "A"
     }
 ]
