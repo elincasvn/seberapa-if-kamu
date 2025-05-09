@@ -13,8 +13,8 @@ An interactive Informatics quiz filter where you answer questions by turning you
 Seberapa_IF_Kamu/
 ├── assets/
 │   ├── soal.json
-│   ├── sound_correct.mp3 (you provide)
-│   ├── sound_wrong.mp3 (you provide)
+│   ├── sound_correct.mp3
+│   ├── sound_wrong.mp3
 │   └── haarcascade_frontalface_default.xml
 ├── main.py
 ├── quiz_logic.py
