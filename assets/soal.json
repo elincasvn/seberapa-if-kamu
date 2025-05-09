@@ -1,0 +1,63 @@
+[
+    {
+      "question": "Apa kepanjangan CPU?",
+      "option_a": "Central Processing Unit",
+      "option_b": "Central Process Unit",
+      "answer": "A"
+    },
+    {
+      "question": "Bahasa pemrograman manakah yang paling populer digunakan dalam pengembangan kecerdasan buatan (AI)?",
+      "option_a": "Python",
+      "option_b": "HTML",
+      "answer": "A"
+    },
+    {
+      "question": "Apa kepanjangan RAM?",
+      "option_a": "Read-Only Memory",
+      "option_b": "Random Access Memory",
+      "answer": "B"
+    },
+    {
+      "question": "Manakah dari berikut ini yang merupakan sistem operasi sumber terbuka (open source)?",
+      "option_a": "Linux",
+      "option_b": "Windows",
+      "answer": "A"
+    },
+    {
+      "question": "Apa yang dimaksud dengan alamat IP (IP address)?",
+      "option_a": "Alamat unik perangkat dalam jaringan",
+      "option_b": "Identitas printer",
+      "answer": "A"
+    },
+    {
+      "question": "Apa fungsi utama dari GPU (Graphics Processing Unit)?",
+      "option_a": "Memproses data grafis",
+      "option_b": "Menyimpan data",
+      "answer": "A"
+    },
+    {
+      "question": "Untuk apa HTML digunakan?",
+      "option_a": "Pemrograman basis data",
+      "option_b": "Membuat struktur halaman web",
+      "answer": "B"
+    },
+    {
+      "question": "Apa yang dimaksud dengan bug dalam pemrograman?",
+      "option_a": "Kesalahan atau cacat dalam kode program",
+      "option_b": "Bahasa pemrograman",
+      "answer": "A"
+    },
+    {
+      "question": "Manakah dari berikut ini yang merupakan sistem operasi untuk perangkat seluler?",
+      "option_a": "iOS",
+      "option_b": "Chrome OS",
+      "answer": "A"
+    },
+    {
+      "question": "Apa kepanjangan DNS dalam jaringan komputer?",
+      "option_a": "Domain Name System",
+      "option_b": "Download Network Setting",
+      "answer": "A"
+    }
+  ]
+  
