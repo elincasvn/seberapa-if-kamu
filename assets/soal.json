@@ -56,7 +56,7 @@
   {
     "question": "Kepanjangan DNS?",
     "option_a": "Domain Name System",
-    "option_b": "Download Network Setting",
+    "option_b": "Download Network Subset",
     "answer": "A"
   }
 ]

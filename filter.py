@@ -1,6 +1,6 @@
 # filter.py
 """
-Main logic for the interactive TikTok-style quiz filter with head tracking.
+Logika utama untuk filter kuis interaktif ala TikTok dengan pelacakan gerakan kepala.
 """
 
 # Impor pustaka OpenCV dan time untuk pengolahan video dan timing

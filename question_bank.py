@@ -1,6 +1,5 @@
 # question_bank.py
 """
-question_bank.py
 Kumpulan pertanyaan dan jawaban informatika dasar dari file JSON.
 """
 
