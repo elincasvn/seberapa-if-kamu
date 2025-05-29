@@ -1,0 +1,62 @@
+[
+  {
+    "question": "Kepanjangan CPU?",
+    "option_a": "Central Processing Unit",
+    "option_b": "Central Process Unit",
+    "answer": "A"
+  },
+  {
+    "question": "Bahasa populer untuk AI?",
+    "option_a": "Python",
+    "option_b": "HTML",
+    "answer": "A"
+  },
+  {
+    "question": "Kepanjangan RAM?",
+    "option_a": "Read-Only Memory",
+    "option_b": "Random Access Memory",
+    "answer": "B"
+  },
+  {
+    "question": "OS open source?",
+    "option_a": "Linux",
+    "option_b": "Windows",
+    "answer": "A"
+  },
+  {
+    "question": "Fungsi IP address?",
+    "option_a": "Identitas perangkat di jaringan",
+    "option_b": "Identitas printer",
+    "answer": "A"
+  },
+  {
+    "question": "Fungsi GPU?",
+    "option_a": "Proses grafis",
+    "option_b": "Simpan data",
+    "answer": "A"
+  },
+  {
+    "question": "Fungsi HTML?",
+    "option_a": "Basis data",
+    "option_b": "Struktur web",
+    "answer": "B"
+  },
+  {
+    "question": "Apa itu bug?",
+    "option_a": "Kesalahan kode",
+    "option_b": "Bahasa pemrograman",
+    "answer": "A"
+  },
+  {
+    "question": "OS untuk mobile?",
+    "option_a": "iOS",
+    "option_b": "Chrome OS",
+    "answer": "A"
+  },
+  {
+    "question": "Kepanjangan DNS?",
+    "option_a": "Domain Name System",
+    "option_b": "Download Network Setting",
+    "answer": "A"
+  }
+]
