@@ -59,7 +59,7 @@ Program ini meniru filter TikTok/Instagram yang menampilkan pertanyaan informati
 3. Miringkan kepala ke:
    - KIRI: untuk memilih jawaban kiri
    - KANAN: untuk memilih jawaban kanan
-4. Anda memiliki 10 detik (default question_duration) untuk menjawab setiap pertanyaan.
+4. Anda memiliki 20 detik (default question_duration) untuk menjawab setiap pertanyaan.
 5. Setelah 5 pertanyaan (default total_questions), skor akhir akan ditampilkan.
 6. Tekan q kapan saja untuk skip satu pertanyaan.
 
