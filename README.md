@@ -113,7 +113,7 @@ File soal disimpan di `assets/soal.json`, contoh format:
 * **2025-05-29**: Pengerjaan Laporan dan Finalisasi Program.
 
 ## Anggota Tim
-* Hasna Dhiya Azizah (121140029)
-* Dhian Adi Nugraha (121140055)
-* Elinca Savina (121140073)
+* Hasna Dhiya Azizah (121140029) - github.com/121140029
+* Dhian Adi Nugraha (121140055) - github.com/dhianadi55
+* Elinca Savina (121140073) - github.com/elincasvn
 ---
