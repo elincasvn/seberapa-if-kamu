@@ -112,6 +112,9 @@ File soal disimpan di `assets/soal.json`, contoh format:
 * **2025-05-02**: Pembaruan `README.md` dan dokumentasi progres.
 * **2025-05-29**: Pengerjaan Laporan dan Finalisasi Program.
 
+## Link Demo Program
+📁 [Google Drive – Demo Program](https://drive.google.com/drive/folders/1SqHaEJ1cybg_ll-DF9oI0a13RtRJ4o8p?usp=sharing)
+
 ## Anggota Tim
 * Hasna Dhiya Azizah (121140029) - github.com/121140029
 * Dhian Adi Nugraha (121140055) - github.com/dhianadi55
