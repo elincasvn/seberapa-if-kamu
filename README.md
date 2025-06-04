@@ -91,12 +91,6 @@ Program ini meniru filter TikTok/Instagram yang menampilkan pertanyaan informati
    pip install opencv-python opencv-python-headless
    ```
 
-5. Perbarui pip dan install dependencies:
-   ```
-   python -m pip install --upgrade pip
-   pip install -r requirements.txt
-   ```
-
 6. Catatan Penting:
 
    Jika playsound tetap dibutuhkan, gunakan versi 1.2.2:
