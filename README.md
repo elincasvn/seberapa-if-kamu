@@ -31,15 +31,14 @@ Program ini meniru filter TikTok/Instagram yang menampilkan pertanyaan informati
    - Alternatif lain (cross-platform): gunakan simpleaudio, python-vlc, atau pygame.
 
 ## Instalasi
+
 1. Clone Repository
-   Jalankan Perintah:
    ```
-   git clone https://github.com/username/repo.git
-   cd repo
-
+   git clone https://github.com/elincasvn/seberapa-if-kamu.git
+   cd seberapa-if-kamu
    ```
-
-2. Buat dan aktifkan virtual environment:
+   
+3. Buat dan aktifkan virtual environment:
    ```
    python -m venv env
 
@@ -48,11 +47,6 @@ Program ini meniru filter TikTok/Instagram yang menampilkan pertanyaan informati
 
    # macOS/Linux
    source env/bin/activate
-   ```
-
-3. Perbarui pip, setuptools, dan wheel
-   ```
-   pip install --upgrade pip setuptools wheel
    ```
 
 4. Install dependencies:
