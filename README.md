@@ -100,20 +100,9 @@ Program ini meniru filter TikTok/Instagram yang menampilkan pertanyaan informati
 6. Catatan Penting:
 
    Jika playsound tetap dibutuhkan, gunakan versi 1.2.2:
+   
 
-## Menjalankan Program Windows
-
-1. Aktifkan virtual environment:
-   ```
-   env\Scripts\activate
-   ```
-
-2. Jalankan program:
-   ```
-   python main.py
-   ```
-
-# Menjalankan Program MacOs
+## Menjalankan Program MacOs
 
 1. Aktifkan virtual environment:
    ```
