@@ -21,7 +21,12 @@ Program ini meniru filter TikTok/Instagram yang menampilkan pertanyaan informati
 - Koneksi internet (untuk unduhan awal model MediaPipe)
 
 ## Instalasi
-1. Buat dan aktifkan virtual environment:
+
+1. Clone Repository
+   git clone https://github.com/elincasvn/seberapa-if-kamu.git
+   cd seberapa-if-kamu
+
+2. Buat dan aktifkan virtual environment:
    ```
    python -m venv env
 
@@ -32,7 +37,7 @@ Program ini meniru filter TikTok/Instagram yang menampilkan pertanyaan informati
    source env/bin/activate
    ```
 
-2. Install dependencies:
+3. Install dependencies:
    ```
    python -m pip install --upgrade pip
    pip install -r requirements.txt
