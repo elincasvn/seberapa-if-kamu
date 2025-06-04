@@ -85,25 +85,20 @@ Program ini meniru filter TikTok/Instagram yang menampilkan pertanyaan informati
    pip install pygame
    ```
 
-4. Install OpenCV (jika perlu):
+4. Wajib Install OpenCV :
    Jika terjadi error terkait kamera atau display:
    ```
    pip install opencv-python opencv-python-headless
    ```
 
-6. Catatan Penting:
+5. Catatan Penting:
 
    Jika playsound tetap dibutuhkan, gunakan versi 1.2.2:
    
 
 ## Menjalankan Program MacOs
 
-1. Aktifkan virtual environment:
-   ```
-   source env/bin/activate
-   ```
-
-2. Jalankan program:
+1. Jalankan program:
    ```
    python main.py
    ```
