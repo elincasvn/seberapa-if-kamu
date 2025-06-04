@@ -26,11 +26,11 @@ Program ini meniru filter TikTok/Instagram yang menampilkan pertanyaan informati
    xcode-select --install
    ```
 - Catatan khusus untuk instalasi playsound
-   - Jika mengalami kegagalan instalasi playsound==1.3.0 di macOS ARM, ganti ke playsound==1.2.2.
-   - Pada Windows, playsound==1.3.0 biasanya terinstal tanpa masalah.
-   - Alternatif lain (cross-platform): gunakan simpleaudio, python-vlc, atau pygame.
+   - Windows: Gunakan playsound==1.3.0 (biasa berjalan lancar).
 
-## Instalasi
+   - MacOS: Gunakan pygame sebagai pengganti playsound (lebih stabil untuk efek suara).
+
+## Instalasi untuk pengguna windows
 
 1. Clone Repository
    ```
@@ -41,45 +41,82 @@ Program ini meniru filter TikTok/Instagram yang menampilkan pertanyaan informati
 3. Buat dan aktifkan virtual environment:
    ```
    python -m venv env
-
-   # Windows
    env\Scripts\activate
-
-   # macOS/Linux
-   source env/bin/activate
    ```
-
-4. Install dependencies:
+4. Perbarui pip dan install dependencies:
    ```
    python -m pip install --upgrade pip
    pip install -r requirements.txt
    ```
-   - Jika pada Windows: playsound==1.3.0 biasanya terinstal tanpa masalah.
-   - Jika pada macOS ARM muncul error:
-      1. Buka file requirements.txt, ubah:
-         ```
-         playsound==1.3.0
-         ```
-         menjadi
-         ```
-         playsound==1.2.2
-         ```
-      2. Jalankan ulang:
-         ```
-         pip install -r requirements.txt
-         ```
-      3. Jika tetap ingin playsound==1.3.0, paksa instal tanpa binary:
-         ```
-         pip install --no-binary :all: playsound==1.3.0
-         ```
+5. Catatan 
+   playsound==1.3.0 akan berjalan normal di Windows, jadi tidak perlu perubahan apa pun.
 
-## Menjalankan Program
+   Tidak perlu install tambahan untuk audio, kecuali jika terjadi masalah saat runtime.
+
+## Menjalankan Program Windows
 1. Pastikan virtual environment aktif:
    ```
    # Windows
    env\Scripts\activate
+   ```
+   
+2. Jalankan program:
+   ```
+   python main.py
+   ```
+## Instalasi untuk pengguna MacOs
 
-   # macOS/Linux
+1. Clone Repository
+   ```
+   git clone https://github.com/elincasvn/seberapa-if-kamu.git
+   cd seberapa-if-kamu
+   ```
+
+2. Buat dan aktifkan virtual environment:
+   ```
+   python3 -m venv env
+   source env/bin/activate
+   ```
+
+3. Hapus playsound dan ganti dengan pygame:
+   Karena playsound==1.3.0 sering error di macOS:
+   ```
+   pip uninstall playsound
+   pip install pygame
+   ```
+
+4. Install OpenCV (jika perlu):
+   Jika terjadi error terkait kamera atau display:
+   ```
+   pip install opencv-python opencv-python-headless
+   ```
+
+5. Perbarui pip dan install dependencies:
+   ```
+   python -m pip install --upgrade pip
+   pip install -r requirements.txt
+   ```
+
+6. Catatan Penting:
+
+   Jika playsound tetap dibutuhkan, gunakan versi 1.2.2:
+
+## Menjalankan Program Windows
+
+1. Aktifkan virtual environment:
+   ```
+   env\Scripts\activate
+   ```
+
+2. Jalankan program:
+   ```
+   python main.py
+   ```
+
+# Menjalankan Program MacOs
+
+1. Aktifkan virtual environment:
+   ```
    source env/bin/activate
    ```
 
