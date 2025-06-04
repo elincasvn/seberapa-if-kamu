@@ -19,9 +19,27 @@ Program ini meniru filter TikTok/Instagram yang menampilkan pertanyaan informati
 - Webcam
 - Speaker/headphone
 - Koneksi internet (untuk unduhan awal model MediaPipe)
+- Windows dan macOS Support
+   - Di Windows, pastikan Python terpasang pada PATH.
+   - Di macOS, terutama M1/ARM, pastikan Xcode Command Line Tools telah diinstal:
+   ```
+   xcode-select --install
+   ```
+- Catatan khusus untuk instalasi playsound
+   - Jika mengalami kegagalan instalasi playsound==1.3.0 di macOS ARM, ganti ke playsound==1.2.2.
+   - Pada Windows, playsound==1.3.0 biasanya terinstal tanpa masalah.
+   - Alternatif lain (cross-platform): gunakan simpleaudio, python-vlc, atau pygame.
 
 ## Instalasi
-1. Buat dan aktifkan virtual environment:
+1. Clone Repository
+   Jalankan Perintah:
+   ```
+   git clone https://github.com/username/repo.git
+   cd repo
+
+   ```
+
+2. Buat dan aktifkan virtual environment:
    ```
    python -m venv env
 
@@ -32,11 +50,34 @@ Program ini meniru filter TikTok/Instagram yang menampilkan pertanyaan informati
    source env/bin/activate
    ```
 
-2. Install dependencies:
+3. Perbarui pip, setuptools, dan wheel
+   ```
+   pip install --upgrade pip setuptools wheel
+   ```
+
+4. Install dependencies:
    ```
    python -m pip install --upgrade pip
    pip install -r requirements.txt
    ```
+   - Jika pada Windows: playsound==1.3.0 biasanya terinstal tanpa masalah.
+   - Jika pada macOS ARM muncul error:
+      1. Buka file requirements.txt, ubah:
+         ```
+         playsound==1.3.0
+         ```
+         menjadi
+         ```
+         playsound==1.2.2
+         ```
+      2. Jalankan ulang:
+         ```
+         pip install -r requirements.txt
+         ```
+      3. Jika tetap ingin playsound==1.3.0, paksa instal tanpa binary:
+         ```
+         pip install --no-binary :all: playsound==1.3.0
+         ```
 
 ## Menjalankan Program
 1. Pastikan virtual environment aktif:
@@ -111,6 +152,7 @@ File soal disimpan di `assets/soal.json`, contoh format:
 * **2025-05-01**: Pengembangan prototype aplikasi.
 * **2025-05-02**: Pembaruan `README.md` dan dokumentasi progres.
 * **2025-05-29**: Pengerjaan Laporan dan Finalisasi Program.
+* **2025-06-04**: Issue Handling (error installing playsound 1.2.2 on macOS)
 
 ## Link Demo Program
 📁 [Google Drive – Demo Program](https://drive.google.com/drive/folders/1SqHaEJ1cybg_ll-DF9oI0a13RtRJ4o8p?usp=sharing)
