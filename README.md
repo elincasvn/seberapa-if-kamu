@@ -23,10 +23,12 @@ Program ini meniru filter TikTok/Instagram yang menampilkan pertanyaan informati
 ## Instalasi
 
 1. Clone Repository
+   ```
    git clone https://github.com/elincasvn/seberapa-if-kamu.git
    cd seberapa-if-kamu
-
-2. Buat dan aktifkan virtual environment:
+   ```
+   
+3. Buat dan aktifkan virtual environment:
    ```
    python -m venv env
 
@@ -37,7 +39,7 @@ Program ini meniru filter TikTok/Instagram yang menampilkan pertanyaan informati
    source env/bin/activate
    ```
 
-3. Install dependencies:
+4. Install dependencies:
    ```
    python -m pip install --upgrade pip
    pip install -r requirements.txt
